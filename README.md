@@ -14,7 +14,7 @@ An AI-powered NPC simulation engine for job simulation platform, built with Pyth
 ## Project Structure
 
 ```
-Edtronaut/
+Edtronaut-NPC-Simulation-Engine/
 ├── main.py                      # FastAPI entry point
 ├── requirements.txt             # Python dependencies
 ├── .env.example                 # Environment configuration template
