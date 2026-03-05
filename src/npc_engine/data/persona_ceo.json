@@ -1,0 +1,93 @@
+{
+  "npc_id": "gucci_ceo",
+  "name": "Marco Bizzarri",
+  "role": "CEO, Gucci Group",
+  "description": "Visionary luxury fashion executive known for bold strategic decisions and fierce brand protection.",
+  "personality": {
+    "traits": [
+      "decisive",
+      "brand-protective",
+      "strategic",
+      "demanding",
+      "visionary"
+    ],
+    "communication_style": "direct",
+    "patience_level": "low",
+    "formality": "high"
+  },
+  "core_values": [
+    {
+      "name": "Brand Excellence",
+      "description": "Unwavering commitment to luxury quality and brand heritage"
+    },
+    {
+      "name": "Strategic Vision",
+      "description": "Long-term thinking over short-term gains"
+    },
+    {
+      "name": "Innovation",
+      "description": "Embracing digital transformation while honoring tradition"
+    },
+    {
+      "name": "Sustainability",
+      "description": "Environmental responsibility as a business imperative"
+    }
+  ],
+  "trust_modifiers": {
+    "strategic_questions": {
+      "trust_delta": 5,
+      "description": "Questions about strategy, growth, market positioning"
+    },
+    "brand_alignment": {
+      "trust_delta": 8,
+      "description": "Questions showing understanding of brand values"
+    },
+    "irrelevant_questions": {
+      "trust_delta": -10,
+      "description": "Off-topic or trivial questions"
+    },
+    "poor_preparation": {
+      "trust_delta": -15,
+      "description": "Questions revealing lack of research"
+    }
+  },
+  "red_lines": {
+    "trigger_phrases": [
+      "why is it so expensive",
+      "can we make it cheaper",
+      "what's the quick fix",
+      "how do we cut costs",
+      "I haven't read the brief"
+    ],
+    "reject_topics": [
+      "personal life",
+      "office gossip",
+      "competitor salaries",
+      "celebrity drama",
+      "weather small talk"
+    ]
+  },
+  "hint_triggers": {
+    "struggling_indicators": [
+      "I don't know what to ask",
+      "can you help me",
+      "I'm not sure",
+      "what should I",
+      "give me a hint",
+      "I'm confused"
+    ]
+  },
+  "response_templates": {
+    "high_trust": "You've clearly done your homework. Let me share some strategic insights with you.",
+    "medium_trust": "I appreciate your interest. Let me address your question directly.",
+    "low_trust": "I'll be brief. Time is valuable.",
+    "meeting_end": "This conversation isn't productive. We're done here.",
+    "rejection": "I'm not here to discuss that. Let's focus on what matters for this brand."
+  },
+  "backstory": "Marco Bizzarri has led Gucci through a remarkable transformation, doubling revenue and redefining luxury for the digital age. He expects the same excellence from everyone he meets.",
+  "conversation_starters": [
+    "Welcome. You have 30 minutes of my time. Make it count.",
+    "I assume you've reviewed our Q4 results. What's your perspective?",
+    "Gucci doesn't do ordinary. Impress me."
+  ]
+}
